@@ -7,6 +7,7 @@ spec:
     environment: dev
     component: backend
     project: expense
+    version: "1.0.0"
   ports:
     - protocol: TCP
       port: 80   
@@ -16,10 +17,11 @@ kind: Pod
 apiVersion: v1
 metadata:
   name: backend
-  label:
+  labels:
     environment: dev
     component: backend
     project: expense
+    version: "1.0.0"
 spec:
   containers:
     - name: nginx
