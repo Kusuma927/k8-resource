@@ -1,0 +1,15 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: environment variables
+spec:
+  containers:
+    - name: nginx
+      image: nginx
+      env:
+        - name: course
+          value: "aws devops"
+        - name: trainer
+          value: "siva kumar"
+        - name: duration
+          value: "120Hrs"
