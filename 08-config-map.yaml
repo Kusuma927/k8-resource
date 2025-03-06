@@ -1,7 +1,7 @@
-apiVersion: v1
 kind: ConfigMap
+apiVersion: v1
 metadata:
   name: myconfig
 data:
   course: "kubernetes"
-  duration: "25days"
+  duration: "26hrs"
