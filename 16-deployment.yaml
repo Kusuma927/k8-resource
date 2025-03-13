@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: kusumab/deployment1.0
+        image: kusumab/deployment2.0
         ports:
         - containerPort: 80
 ---
